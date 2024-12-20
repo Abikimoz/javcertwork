@@ -2,14 +2,13 @@ package com.example.javcertwork.controller;
 
 import com.example.javcertwork.model.Item;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
-@Controller
+@RestController
 @RequestMapping("/items")
 public class ItemController {
 
